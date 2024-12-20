@@ -1,0 +1,430 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.layar-dalam {
+    width: 1000px;
+    margin: auto;
+}
+
+.layar-penuh {
+    width: 100%;
+}
+
+
+nav {
+    z-index: 100;
+    background-color: #007BFF;
+    color: rgb(208, 22, 22);
+    text-align: center;
+    position: fixed;
+    border-bottom: none;
+    line-height: 60px;
+    width: 100%;
+    padding: 10px 10px 10px;
+}
+
+nav .logo {
+    float: left;
+    position: relative;
+    line-height: 55px;
+    text-align: center;
+}
+
+nav .logo img {
+    vertical-align: middle;
+    width: 50px;
+}
+
+nav .menu {
+    float: right;
+    height: auto;
+    max-width: 600px;
+}
+
+nav .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav .menu ul li {
+    list-style-type: none;
+    float: left;
+    line-height: 60px;
+}
+
+nav .menu ul li a {
+    color: white;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav .menu ul a:hover {
+    text-decoration: underline;
+}
+
+/*pengaturan header*/
+header {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+}
+
+header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -2;
+}
+
+header .intro {
+    z-index: 100;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50%
+}
+
+header .intro h3 {
+    font-size: 50px;
+    line-height: 42px;
+    margin: 0;
+    padding: 0;
+}
+
+.tombol {
+    background-color: rgb(17, 85, 230);
+    height: 40px;
+    line-height: 42px;
+    color: wheat;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    font-family: 15px;
+    border-radius: 4px;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 30%;
+    z-index: -1;
+}
+
+.tombol-menu {
+    position: absolute;
+    top: 1.7rem;
+    right: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.tombol-menu .garis {
+    height: 3px;
+    background-color: white;
+
+}
+
+/*visi misi*/
+section {
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
+    display: auto;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container1 {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px 100px 20px 100px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.imagevsms {
+    flex: 1;
+}
+
+.imagevsms img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.textvsms {
+    flex: 1.5;
+    padding: 20px;
+    text-align: justify;
+}
+
+.textvsms h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: normal;
+    color: #333;
+}
+
+.textvsms h3 {
+    font-size: 25px;
+    margin: 20px 0 10px 50px;
+    color: #007BFF;
+}
+
+.textvsms ul {
+    list-style-type: '✨';
+}
+
+.textvsms ul li {
+    padding: 0px 0px 5px 20px;
+    margin: 20px 0 10px 50px;
+    font-size: 1.1em;
+    color: #444;
+}
+
+
+
+/*tenaga pendidik*/
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container2 {
+    text-align: center;
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #002147;
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    line-height: normal;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #ffd700;
+    margin: 10px auto 0;
+}
+
+.idguru {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.kartu {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.kartu:hover {
+    transform: translateY(-10px);
+}
+
+.kartu img {
+    width: 100%;
+    height: auto;
+}
+
+.kartu-text {
+    padding: 15px;
+}
+
+.kartu-text h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.kartu-text p {
+    font-size: 14px;
+    color: #ff8c00;
+    text-transform: uppercase;
+}
+
+section .intro {
+    text-align: center;
+}
+
+.tmbl {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #002147;
+    background: #fff;
+    border: 2px solid #002147;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #002147;
+    color: #fff;
+}
+
+/*berita*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content .date {
+    color: #007BFF;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-content h3 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.card-content a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-content a:hover {
+    text-decoration: underline;
+}
+
+.card-footer {
+    padding: 10px 15px;
+    background: #f9f9f9;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #999;
+}
+
+/*Kontak Kami*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+@media screen and (max-width:991.98px) {
+    .layar-dalam {
+        width: 90%;
+    }
+
+    nav .menu ul {
+        display: none;
+        margin-top: 60px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    nav .menu ul li {
+        width: 100%;
+        border-bottom: 1px solid black;
+        background-color: white;
+        line-height: 40px;
+    }
+
+    nav .menu ul li a {
+        color: black;
+    }
+
+    .tombol-menu {
+        display: flex;
+    }
+
+    header .intro h3 {
+        font-size: 30px;
+        margin: 0px 10px 20px 10px;
+        padding: 0;
+    }
+
+    header .intro p {
+        margin: 0px 10px 20px 10px;
+    }
+    
+}
