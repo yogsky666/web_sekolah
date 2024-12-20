@@ -414,6 +414,7 @@ body {
     }
 
     .tombol-menu {
+        margin-right: 40px;
         display: flex;
     }
 
