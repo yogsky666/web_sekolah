@@ -149,25 +149,26 @@ header .overlay {
 
 }
 
-/*visi misi*/
 section {
-    margin: 0px 0px 0px 0px;
-    padding: 20px 0px 20px 0px;
+    margin: auto;
+    padding: 50px 180px 0px 180px;
     display: auto;
     box-sizing: border-box;
-    background-color: #FFFFFF;
+    background-color: #fff;
 }
 
+/*visi misi*/
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
 
+.layar-penuh .wrapping {
+    background-color: #fff;
+}
 .container1 {
     display: flex;
     max-width: 1200px;
-    margin: 20px 100px 20px 100px;
-    padding: 20px;
     overflow: hidden;
 }
 
@@ -183,7 +184,7 @@ body {
 
 .textvsms {
     flex: 1.5;
-    padding: 20px;
+    padding: 5px;
     text-align: justify;
 }
 
@@ -387,6 +388,24 @@ body {
     line-height: 1.6;
 }
 
+.wrapper {
+    display: flex;
+    text-align: justify;
+}
+.wrapper h3{
+    line-height: normal;
+    font-size: 25px;
+    color: #007BFF;
+}
+.tempatkami{
+    border: 0;
+    width: 600px;
+    height: 450px;
+}
+.kontakkami {
+    margin-left: 50px;
+}
+
 
 @media screen and (max-width:991.98px) {
     .layar-dalam {
@@ -427,10 +446,40 @@ body {
     header .intro p {
         margin: 0px 10px 20px 10px;
     }
+    
+    section{
+        margin: 0;
+        padding: 0 10px 0px 10px;
+    }
 
-    section .container1{
-        margin: 0px 2px 0px 2px;
-        padding: 0;
+    .container1{
+        display: grid;
+        margin: 5px;
+    }
+    .textvsms h3 {
+        font-size: 25px;
+        margin: 0;
+        color: #007BFF;
     }
     
+    .textvsms ul li {
+        padding: 0px 0px 5px 20px;
+        margin: 0;
+        font-size: 1.1em;
+        color: #444;
+    }
+
+    .wrapper{
+        display: grid;
+        margin: 5px;
+    }
+    .tempatkami{
+        align-items: center;
+        border: 0;
+        width: 300px;
+        height: 200px;
+    }
+    .kontakkami {
+        margin-left: 0;
+    }
 }
