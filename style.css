@@ -163,9 +163,6 @@ body {
     line-height: 1.6;
 }
 
-.layar-penuh .wrapping {
-    background-color: #fff;
-}
 .container1 {
     display: flex;
     max-width: 1200px;
@@ -245,7 +242,7 @@ h2::after {
     margin: 10px auto 0;
 }
 
-.idguru {
+.nisn {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -281,10 +278,11 @@ h2::after {
     margin-bottom: 10px;
 }
 
-.kartu-text p {
-    font-size: 14px;
+.kartu-text span {
+    font-size: 16px;
+    font-weight: bold;
     color: #ff8c00;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 section .intro {
@@ -397,13 +395,40 @@ body {
     font-size: 25px;
     color: #007BFF;
 }
+
 .tempatkami{
     border: 0;
     width: 600px;
-    height: 450px;
+    height: 600px;
 }
+
 .kontakkami {
     margin-left: 50px;
+    text-align: justify;
+}
+.kontakkami .form input{
+    width: 90%;
+    padding: 20px;
+    margin: 5px 0px 5px 0px;
+    opacity: 100%;
+    border: 1px solid #EFF3EA;
+    box-shadow: #666;
+}
+.kontakkami .form textarea{
+    width: 90%;
+    padding: 20px;
+    margin: 5px 0px 5px 0px;
+    opacity: 100%;
+    border: 1px solid #EFF3EA;
+    box-shadow: #666;
+}
+.kontakkami .form button{
+    width: 60%;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+    background-color: #007BFF;
+    color: #EFF3EA;
+    border: 0px;
 }
 
 
