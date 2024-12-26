@@ -163,6 +163,9 @@ body {
     line-height: 1.6;
 }
 
+.visimisi{
+    background-color: #999;
+}
 .container1 {
     display: flex;
     max-width: 1200px;
