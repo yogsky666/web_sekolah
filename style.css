@@ -164,11 +164,12 @@ body {
 }
 
 .visimisi{
-    background-color: #999;
+    background-color: #FFFFFF;
 }
 .container1 {
     display: flex;
     max-width: 1200px;
+    padding: 20px;
     overflow: hidden;
 }
 
@@ -214,16 +215,20 @@ body {
 
 
 
-/*tenaga pendidik*/
+/*penerima jalur PTN*/
 
 body {
     font-family: Arial, sans-serif;
 }
 
+.ptn {
+    background-color: #F5EFFF;
+    padding-bottom: 50px;
+}
 .container2 {
     text-align: center;
     padding: 20px;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
     box-sizing: border-box;
 }
@@ -310,6 +315,45 @@ section .intro {
     background: #002147;
     color: #fff;
 }
+
+/*ekstrakurikuler*/
+h2 {
+    color: #002147;
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    line-height: normal;
+}
+.container5 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.box {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.box:hover {
+    transform: translateY(-5px);
+}
+.kartu-box {
+    display: flex;
+    padding: 20px;
+}
+.kartu-box img{
+    width: 80px;
+    height: auto;
+}
+.texxx {
+    margin-left: 20px;
+}
+
 
 /*berita*/
 body {
@@ -483,6 +527,10 @@ body {
     .container1{
         display: grid;
         margin: 5px;
+    }
+
+    .ptn {
+        padding: 50px;
     }
     .textvsms h3 {
         font-size: 25px;
