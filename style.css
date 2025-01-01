@@ -467,6 +467,9 @@ body {
     background-image: inherit;
     background-color: #007BFF;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 50px 180px 50px 180px;
 }
 .container6{
@@ -475,8 +478,9 @@ body {
     text-align: justify;
 }
 .sekolahkami{
+    display: flexbox;
     max-width: 40%;
-    margin-right: 40px;
+    margin-right: 400px;
 }
 .judulan{
     display: flex;
@@ -487,7 +491,7 @@ body {
     width: 60px;
     padding: 20px;
 }
-h3{
+.judulan h3{
     font-size: 20px;
     align-content: center;
 }
@@ -530,7 +534,6 @@ h3{
 .information a:hover{
     text-decoration: underline;
 }
-
 /* Footer */
 
 @media screen and (max-width:991.98px) {
@@ -576,6 +579,14 @@ h3{
     section{
         margin: 0;
         padding: 0 10px 0px 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about_us{
+        margin: 0;
+        padding: 0 10px 0px 10px;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .container1{
@@ -611,5 +622,15 @@ h3{
     }
     .kontakkami {
         margin-left: 0;
+    }
+
+    .sekolahkami{
+        display: grid;
+        margin: none;
+        padding: none;
+    }
+    .container6{
+        display: grid;
+        margin: 5px;
     }
 }

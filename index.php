@@ -33,17 +33,7 @@
         </div>
     </nav>
     <div class="layar-penuh">
-        <header id="home">
-            <div class="overlay"></div>
-            <video autoplay muted loop>
-                <source src="asset/Proyek Baru [80F29E8].mp4" type="video/mp4" />
-            </video>
-            <div class="intro">
-                <h3>Improve Quality And Have Good Character</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illo.</p>
-                <p><a href="#" class="buttonn">Mulai Membaca</a></p>
-            </div>
-        </header>
+        <?= include "layout/header.html" ?>
         <main>
             <section class="visimisi">
                 <div class="container1">
@@ -59,7 +49,7 @@
                         <h3>Misi</h3>
                         <ul>
                             <li>Meningkatkan Pendidikan dan Penghayatan terhadap Ajaran yang dianut sehingga menjadi sumber Kearifan dalam bertindak dan Bertutur Sapa.</li>
-                            <li>Melaksanakan Pembelajaran dan Bimbingan secara Berkualitas dengan meningkatkan        Profesionalitas Tenaga Pendidik dan Kependidikan.</li>
+                            <li>Melaksanakan Pembelajaran dan Bimbingan secara Berkualitas dengan meningkatkan Profesionalitas Tenaga Pendidik dan Kependidikan.</li>
                             <li>Mempersiapkan Peserta Didik untuk melanjutkan Ke Perguruan Tinggi Negeri (PTN) dan memiliki kemampuan Berwirausaha.</li>
                             <li>Meningkatkan kepedulian terhadap Lingkungan dan Memelihara Keseimbangan Lingkungan.</li>
                         </ul>
@@ -265,58 +255,15 @@
                                     <div class="input-inbox">
                                         <textarea name="saran" placeholder="Berikan kami saran anda *" rows="8"></textarea>
                                     </div>
-                                    <button type="button"><i class="fa-solid fa-paper-plane"></i>   SEND MESSAGE</button>
+                                    <button type="button"><i class="fa-solid fa-paper-plane"></i> SEND MESSAGE</button>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <footer class="about_us">
-                <div class="container6">
-                    <div class="sekolahkami">
-                        <div class="judulan">
-                            <img src="asset/logo.png" alt="logo">
-                            <h3>SMAN 5 TAMBUN SELATAN</h3>
-                        </div>
-                        <p>SMA Negeri 5 Tambun Selatan yang terletak berdekatan dengan Jakarta sebagai Ibu Kota Negara, Kota Metropolitan. Bekasi sebagai daerah penyangga Ibu Kota dituntut untuk menyediakan sarana pendidikan.</p><br>
-                        <div class="icons">
-                            <a href="" class="banner_sosial_media">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </a>
-                            <a href="" class="banner_sosial_media">
-                                <i class="fa-brands fa-tiktok"></i>
-                            </a>
-                            <a href="" class="banner_sosial_media">
-                                <i class="fa-brands fa-youtube"></i>
-                            </a>
-                            <a href="" class="banner_sosial_media">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                    <div class="newsupdate">
-                        <h3>BERITA TERBARU</h3>
-                    </div>
-                    <div class="alamat_asli">
-                        <h3>ALAMAT</h3>
-                        <div class="information">
-                            <p>TELEPON</p>
-                            <span>(021) 82627616</span>
-                        </div>
-                        <div class="information">
-                            <p>EMAIL</p>
-                            <span><a href="humas@sman5tambunselatan.sch.id">humas@sman5tambunselatan.sch.id</a></span>
-                        </div>
-                        <div class="information">
-                            <p>SEKOLAH</p>
-                            <span><a href="https://maps.app.goo.gl/ZG1oB2W443rTDpFK7"></a>Jl. Sunset Ave Grand Wisata</a></span>
-                        </div>
-                    </div>
-                </div>
-            </footer>
         </main>
+        <?= include "layout/footer.html" ?>
     </div>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
