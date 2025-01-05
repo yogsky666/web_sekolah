@@ -4,21 +4,26 @@
     line-height: 20px;
     font-size: 15px;
 }
+
 html {
     margin: 0;
     padding: 0;
 }
+
 body {
     margin: 0;
     padding: 0;
 }
+
 .layar-dalam {
     width: 1000px;
     margin: auto;
 }
+
 .layar-penuh {
     width: 100%;
 }
+
 section {
     margin: auto;
     padding: 50px 180px 0px 180px;
@@ -26,6 +31,7 @@ section {
     box-sizing: border-box;
     background-color: #fff;
 }
+
 /* All Condition */
 
 
@@ -42,32 +48,38 @@ nav {
     padding: 10px 10px 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4)
 }
+
 nav .logo {
     float: left;
     position: relative;
     line-height: 55px;
     text-align: center;
 }
+
 nav .logo img {
     vertical-align: middle;
     width: 50px;
 }
+
 nav .menu {
     float: right;
     height: auto;
     max-width: 600px;
 }
+
 nav .menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
+
 nav .menu ul li {
     list-style-type: none;
     float: left;
     line-height: 60px;
 }
+
 nav .menu ul li a {
     color: white;
     line-height: normal;
@@ -75,10 +87,12 @@ nav .menu ul li a {
     padding: 32px 16px 32px 16px;
     text-decoration: none;
 }
+
 nav .menu ul a:hover {
     background-color: #EFF3EA;
     color: #007BFF;
 }
+
 .tombol-menu {
     position: absolute;
     top: 1.7rem;
@@ -88,10 +102,12 @@ nav .menu ul a:hover {
     width: 30px;
     height: 20px;
 }
+
 .tombol-menu .garis {
     height: 3px;
     background-color: white;
 }
+
 /* Navigation Bar */
 
 /* Heading Homepage*/
@@ -102,6 +118,7 @@ header {
     overflow: hidden;
     z-index: 2;
 }
+
 header video {
     position: absolute;
     top: 0;
@@ -109,6 +126,7 @@ header video {
     object-fit: cover;
     z-index: -2;
 }
+
 header .intro {
     z-index: 100;
     color: white;
@@ -116,12 +134,14 @@ header .intro {
     position: relative;
     top: 50%
 }
+
 header .intro h3 {
     font-size: 50px;
     line-height: 42px;
     margin: 0;
     padding: 0;
 }
+
 header .overlay {
     position: absolute;
     top: 0;
@@ -132,6 +152,7 @@ header .overlay {
     opacity: 30%;
     z-index: -1;
 }
+
 .buttonn {
     background-color: #007BFF;
     text-transform: uppercase;
@@ -146,6 +167,7 @@ header .overlay {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
+
 .buttonn:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     transform: scale(1.1);
@@ -159,58 +181,70 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
-.visimisi{
+
+.visimisi {
     background-color: #FFFFFF;
 }
+
 .container1 {
     display: flex;
     max-width: 1200px;
     padding: 20px;
     overflow: hidden;
 }
+
 .imagevsms {
     flex: 1;
 }
+
 .imagevsms img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .textvsms {
     flex: 1.5;
     padding: 5px;
     text-align: justify;
 }
+
 .textvsms h2 {
     font-size: 30px;
     margin-bottom: 10px;
     line-height: normal;
     color: #333;
 }
+
 .textvsms h3 {
     font-size: 25px;
     margin: 20px 0 10px 50px;
     color: #007BFF;
 }
+
 .textvsms ul {
     list-style-type: '✨';
 }
+
 .textvsms ul li {
     padding: 0px 0px 5px 20px;
     margin: 20px 0 10px 50px;
     font-size: 1.1em;
     color: #444;
 }
+
 /* Visi Misi*/
 
 /* Penerima Jalur PTN */
 body {
     font-family: Arial, sans-serif;
 }
+
 .ptn {
     background-color: #F5EFFF;
     padding-bottom: 50px;
 }
+
 .container2 {
     text-align: center;
     padding: 20px;
@@ -218,6 +252,7 @@ body {
     margin: auto;
     box-sizing: border-box;
 }
+
 h2 {
     color: #002147;
     position: relative;
@@ -225,6 +260,7 @@ h2 {
     text-align: center;
     line-height: normal;
 }
+
 h2::after {
     content: '';
     display: block;
@@ -233,6 +269,7 @@ h2::after {
     background: #ffd700;
     margin: 10px auto 0;
 }
+
 .siswa {
     display: flex;
     flex-wrap: wrap;
@@ -240,6 +277,7 @@ h2::after {
     justify-content: center;
     margin-top: 20px;
 }
+
 .kartu {
     background: #fff;
     border-radius: 8px;
@@ -248,30 +286,37 @@ h2::after {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
+
 .kartu:hover {
     transform: translateY(-10px);
 }
+
 .kartu img {
     width: 100%;
     height: auto;
 }
+
 .kartu-text {
     padding: 15px;
 }
+
 .kartu-text h3 {
     font-size: 18px;
     color: #333;
     margin-bottom: 10px;
 }
+
 .kartu-text span {
     font-size: 16px;
     font-weight: bold;
     color: #ff8c00;
     text-transform: capitalize;
 }
-.ptn p{
+
+.ptn p {
     text-align: center;
 }
+
 .tombole {
     background-color: #007BFF;
     text-transform: uppercase;
@@ -286,11 +331,13 @@ h2::after {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
+
 .tombole:hover {
     color: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     transform: scale(1.1);
 }
+
 /* Penerima Jalur PTN */
 
 /* Ekstrakurikuler */
@@ -301,9 +348,11 @@ h2 {
     text-align: center;
     line-height: normal;
 }
+
 .eskul {
     padding-bottom: 50px;
 }
+
 .container5 {
     display: flex;
     flex-wrap: wrap;
@@ -311,6 +360,7 @@ h2 {
     justify-content: center;
     padding: 20px;
 }
+
 .box {
     background: #fff;
     border-radius: 8px;
@@ -319,20 +369,25 @@ h2 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
+
 .box:hover {
     transform: translateY(-5px);
 }
+
 .kartu-box {
     display: flex;
     padding: 20px;
 }
-.kartu-box img{
+
+.kartu-box img {
     width: 80px;
     height: auto;
 }
+
 .texxx {
     margin-left: 20px;
 }
+
 /* Ekstrakurikuler */
 
 /* Berita */
@@ -341,6 +396,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .container3 {
     display: flex;
     flex-wrap: wrap;
@@ -348,10 +404,12 @@ body {
     justify-content: center;
     padding: 20px;
 }
+
 .berita {
     background-color: #F5EFFF;
     padding-bottom: 50px;
 }
+
 .card {
     background: #fff;
     border-radius: 8px;
@@ -360,6 +418,7 @@ body {
     width: 300px;
     height: auto;
 }
+
 .card-content {
     padding: 15px;
     display: inline-block;
@@ -368,14 +427,17 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 .card img {
     width: 150%;
 }
+
 .card-content h3 {
     font-size: 18px;
     margin: 0 0 10px;
     color: #333;
 }
+
 .card-content p {
     white-space: nowrap;
     font-size: 14px;
@@ -384,6 +446,7 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 .card-content a {
     display: inline-block;
     margin-top: 10px;
@@ -391,9 +454,11 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
+
 .card-content a:hover {
     text-decoration: underline;
 }
+
 .card-footer {
     padding: 10px 15px;
     background: #f9f9f9;
@@ -403,14 +468,17 @@ body {
     font-size: 12px;
     color: #999;
 }
+
 .card-footer a {
     color: #4ea3ff;
     font-weight: 700;
     text-decoration: none;
 }
-.berita p{
+
+.berita p {
     text-align: center;
 }
+
 /* Berita */
 
 /* Kontak Kami */
@@ -418,25 +486,30 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
+
 .wrapper {
     display: flex;
     text-align: justify;
 }
-.wrapper h3{
+
+.wrapper h3 {
     line-height: normal;
     font-size: 25px;
     color: #007BFF;
 }
-.tempatkami{
+
+.tempatkami {
     border: 0;
     width: 600px;
     height: 600px;
 }
+
 .kontakkami {
     margin-left: 50px;
     text-align: justify;
 }
-.kontakkami .form input{
+
+.kontakkami .form input {
     width: 90%;
     padding: 20px;
     margin: 5px 0px 5px 0px;
@@ -444,7 +517,8 @@ body {
     border: 1px solid #EFF3EA;
     box-shadow: #666;
 }
-.kontakkami .form textarea{
+
+.kontakkami .form textarea {
     width: 90%;
     padding: 20px;
     margin: 5px 0px 5px 0px;
@@ -452,7 +526,8 @@ body {
     border: 1px solid #EFF3EA;
     box-shadow: #666;
 }
-.kontakkami .form button{
+
+.kontakkami .form button {
     width: 60%;
     padding: 10px;
     margin: 5px 0px 5px 0px;
@@ -460,10 +535,11 @@ body {
     color: #EFF3EA;
     border: 0px;
 }
+
 /* Kontak Kami */
 
 /* Footer */
-.about_us{
+.about_us {
     background-image: inherit;
     background-color: #007BFF;
     margin: auto;
@@ -472,30 +548,36 @@ body {
     align-items: center;
     padding: 50px 180px 50px 180px;
 }
-.container6{
+
+.container6 {
     display: flex;
     width: 100%;
     text-align: justify;
 }
-.sekolahkami{
+
+.sekolahkami {
     display: flexbox;
     max-width: 40%;
     margin-right: 400px;
 }
-.judulan{
+
+.judulan {
     display: flex;
 }
-.judulan img{
+
+.judulan img {
     position: relative;
     text-align: center;
     width: 60px;
     padding: 20px;
 }
-.judulan h3{
+
+.judulan h3 {
     font-size: 20px;
     align-content: center;
 }
-.banner_sosial_media{
+
+.banner_sosial_media {
     display: block;
     text-decoration: none;
     margin: 4px;
@@ -506,13 +588,15 @@ body {
     font-size: 1em;
     transition: all 0.2 linear;
 }
-.banner_sosial_media:hover{
+
+.banner_sosial_media:hover {
     background: #fff;
     color: #007BFF;
     cursor: pointer;
     border: none;
 }
-.icons{
+
+.icons {
     width: 50%;
     display: flex;
     grid-template-columns: repeat(1, 8em);
@@ -520,20 +604,23 @@ body {
     justify-content: left;
 }
 
-.information{
+.information {
     border: 1em;
     display: block;
     margin: 20px auto 20px;
     padding: auto;
     font-weight: bolder;
 }
-.information a{
+
+.information a {
     text-decoration: none;
     color: #000;
 }
-.information a:hover{
+
+.information a:hover {
     text-decoration: underline;
 }
+
 /* Footer */
 
 @media screen and (max-width:991.98px) {
@@ -575,21 +662,22 @@ body {
     header .intro p {
         margin: 0px 10px 20px 10px;
     }
-    
-    section{
-        margin: 0;
-        padding: 0 10px 0px 10px;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .about_us{
+
+    section {
         margin: 0;
         padding: 0 10px 0px 10px;
         justify-content: space-between;
         align-items: center;
     }
 
-    .container1{
+    .about_us {
+        margin: 0;
+        padding: 0 10px 0px 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container1 {
         display: grid;
         margin: 5px;
     }
@@ -597,12 +685,13 @@ body {
     .ptn {
         padding: 50px;
     }
+
     .textvsms h3 {
         font-size: 25px;
         margin: 0;
         color: #007BFF;
     }
-    
+
     .textvsms ul li {
         padding: 0px 0px 5px 20px;
         margin: 0;
@@ -610,26 +699,29 @@ body {
         color: #444;
     }
 
-    .wrapper{
+    .wrapper {
         display: grid;
         margin: 5px;
     }
-    .tempatkami{
+
+    .tempatkami {
         align-items: center;
         border: 0;
         width: 300px;
         height: 200px;
     }
+
     .kontakkami {
         margin-left: 0;
     }
 
-    .sekolahkami{
+    .sekolahkami {
         display: grid;
         margin: none;
         padding: none;
     }
-    .container6{
+
+    .container6 {
         display: grid;
         margin: 5px;
     }
