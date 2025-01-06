@@ -23,11 +23,11 @@
                 </a>
                 <ul>
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#profilsekolah">Profil Sekolah</a></li>
-                    <li><a href="#informasi">Informasi</a></li>
-                    <li><a href="#aplikasidigital">Aplikasi Digital</a></li>
+                    <li><a href="#visimisi">Visi Misi</a></li>
+                    <li><a href="#berita">Berita</a></li>
+                    <li><a href="#ektra">Ekstrakurikuler</a></li>
+                    <li><a href="#ptn">Jalur PTN</a></li>
                     <li><a href="#kontak">Kontak</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
                 </ul>
             </div>
         </div>
@@ -36,7 +36,7 @@
         <?= include "layout/header.html" ?>
         <main>
             <section class="visimisi">
-                <div class="container1">
+                <div id="visimisi" class="container1">
                     <div class="imagevsms">
                         <img src="asset/hompage.jpeg" alt="SMA Negeri 5 Tambun Selatan">
                     </div>
@@ -56,7 +56,7 @@
                     </div>
                 </div>
             </section>
-            <section class="ptn">
+            <section id="ptn" class="ptn">
                 <h2>Daftar Siswa diterima Di PTN</h2>
                 <div class="container2">
                     <div class="siswa">
@@ -96,7 +96,7 @@
                 </div>
                 <p><a href="#" class="tombole">Lihat Selengkapnya</a></p>
             </section>
-            <section class="eskul">
+            <section id="ektra" class="eskul">
                 <h2>Ekstrakurikuler</h2>
                 <div class="container5">
                     <div class="box">
@@ -146,7 +146,7 @@
                     </div>
                 </div>
             </section>
-            <section class="berita">
+            <section id="berita" class="berita">
                 <h2>Berita</h2>
                 <div class="container3">
                     <!-- Card 1 -->
@@ -231,7 +231,7 @@
                 <p><a href="#" class="tombole">Lihat Selengkapnya</a></p>
             </section>
             <section class="hubungikami">
-                <div class="container4">
+                <div id="kontak" class="container4">
                     <h2>Hubungi Kami</h2>
                     <div class="wrapper">
                         <div class="maps">
@@ -242,7 +242,7 @@
                             <h3>Contact Us</h3>
                             <p>Tetap terhubung dengan kami melalui media sosial kami untuk mendapatkan pembaruan terbaru dan informasi menarik tentang SMA Negeri 5 Tambun Selatan.</p>
                             <div class="form">
-                                <form action="#">
+                                <form action="index.php" method="POST">
                                     <div class="input-inbox">
                                         <input type="text" name="nama" placeholder="Nama" required>
                                     </div>
@@ -255,7 +255,7 @@
                                     <div class="input-inbox">
                                         <textarea name="saran" placeholder="Berikan kami saran anda *" rows="8"></textarea>
                                     </div>
-                                    <button type="button"><i class="fa-solid fa-paper-plane"></i> SEND MESSAGE</button>
+                                    <button type="button" name="submit"><i class="fa-solid fa-paper-plane"></i> SEND MESSAGE</button>
                                 </form>
                             </div>
                         </div>
