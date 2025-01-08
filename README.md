@@ -24,13 +24,13 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quasi! Sin
     </tr>
     <tr>
       <td>2</td>
-      <td>19XXXXXX</td>
+      <td>19235186</td>
       <td>Fajar Sianipar</td>
     </tr>
     <tr>
       <td>3</td>
-      <td>19XXXXXX</td>
-      <td>Fulan bin Fulan</td>
+      <td>19235146</td>
+      <td>Adhitya Febbyan Widianto</td>
     </tr>
   </tbody>
 </table>

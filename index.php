@@ -22,7 +22,7 @@
                     <span class="garis"></span>
                 </a>
                 <ul>
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="">Home</a></li>
                     <li><a href="#visimisi">Visi Misi</a></li>
                     <li><a href="#berita">Berita</a></li>
                     <li><a href="#ektra">Ekstrakurikuler</a></li>
@@ -94,7 +94,7 @@
                         </div>
                     </div>
                 </div>
-                <p><a href="#" class="tombole">Lihat Selengkapnya</a></p>
+                <p><a href="#ptn" class="tombole">Lihat Selengkapnya</a></p>
             </section>
             <section id="ektra" class="eskul">
                 <h2>Ekstrakurikuler</h2>
@@ -228,10 +228,10 @@
                         </div>
                     </div>
                 </div>
-                <p><a href="#" class="tombole">Lihat Selengkapnya</a></p>
+                <p><a href="#berita" class="tombole">Lihat Selengkapnya</a></p>
             </section>
-            <section class="hubungikami">
-                <div id="kontak" class="container4">
+            <section id="kontak" class="hubungikami">
+                <div class="container4">
                     <h2>Hubungi Kami</h2>
                     <div class="wrapper">
                         <div class="maps">
