@@ -112,8 +112,8 @@
                         <div class="kartu-box">
                             <img src="asset/reading.png" class="icone"></i>
                             <div class="texxx">
-                                <h3>OSIS</h3>
-                                <span>Organisasi Intra Sekolah</span>
+                                <h3>PMR</h3>
+                                <span>Palang Merah Remaja</span>
                             </div>
                         </div>
                     </div>
@@ -121,8 +121,8 @@
                         <div class="kartu-box">
                             <img src="asset/reading.png" class="icone"></i>
                             <div class="texxx">
-                                <h3>OSIS</h3>
-                                <span>Organisasi Intra Sekolah</span>
+                                <h3>Pramuka</h3>
+                                <span>Praja Muda Karana</span>
                             </div>
                         </div>
                     </div>
@@ -130,8 +130,8 @@
                         <div class="kartu-box">
                             <img src="asset/reading.png" class="icone"></i>
                             <div class="texxx">
-                                <h3>OSIS</h3>
-                                <span>Organisasi Intra Sekolah</span>
+                                <h3>Paskibra</h3>
+                                <span>Pasukan Pengibar Bendera</span>
                             </div>
                         </div>
                     </div>
@@ -139,8 +139,8 @@
                         <div class="kartu-box">
                             <img src="asset/reading.png" class="icone"></i>
                             <div class="texxx">
-                                <h3>OSIS</h3>
-                                <span>Organisasi Intra Sekolah</span>
+                                <h3>Ekstrakurikuler Lainnya</h3>
+                                <span>Olahraga, Seni Tari</span>
                             </div>
                         </div>
                     </div>
@@ -153,7 +153,7 @@
                     <div class="card">
                         <img src="asset/001.jpeg">
                         <div class="card-content">
-                            <h3>Informasi PPDB 2024</h3>
+                            <h3>Informasi PPDB 2025</h3>
                             <p>Berikut tautan untuk mendownload: Informasi PPDB, Persyaratan dan Alur Pendaftaran, Materi Sosialisasi.</p>
                             <a href="#">Read More</a>
                         </div>
@@ -166,8 +166,8 @@
                     <div class="card">
                         <img src="asset/002.jpeg">
                         <div class="card-content">
-                            <h3>Informasi PPDB 2024</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <h3>Memperingati Idul Adha</h3>
+                            <p>Pada Tanggal 17 Juni 2024, Sekolah kami mengadakan pemotongan qurban berupa sapi dan kambing untuk memperingati Hari Raya Idul Adha.</p>
                             <a href="#">Read More</a>
                         </div>
                         <div class="card-footer">
@@ -179,8 +179,8 @@
                     <div class="card">
                         <img src="asset/003.jpeg">
                         <div class="card-content">
-                            <h3>Informasi PPDB 2024</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <h3>Memperingati Hari Guru</h3>
+                            <p>Pada Tanggal 25 November 2024, Sekolah kami mengadakan perayaan Hari Guru sebagai bentuk apresiasi para guru karena telah memberikan yang terbaik bagi kami.</p>
                             <a href="#">Read More</a>
                         </div>
                         <div class="card-footer">
@@ -192,8 +192,8 @@
                     <div class="card">
                         <img src="asset/004.jpeg">
                         <div class="card-content">
-                            <h3>Informasi PPDB 2024</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <h3>Memperingati Hari Kemerdekaan</h3>
+                            <p>Pada Tanggal 17 Agustus 2024, Sekolah merayakan ulang tahun negara Indonesia yang ke - 79.</p>
                             <a href="#">Read More</a>
                         </div>
                         <div class="card-footer">
@@ -205,8 +205,8 @@
                     <div class="card">
                         <img src="asset/005.jpeg">
                         <div class="card-content">
-                            <h3>Informasi PPDB 2024</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <h3>Pelantikan OSIS Periode 2024</h3>
+                            <p>Pada Tanggal 30 Mei 2024, Sekolah kami melakukan pelantikan kepengurusan OSIS untuk periode 2024 - 2025.</p>
                             <a href="#">Read More</a>
                         </div>
                         <div class="card-footer">
@@ -219,7 +219,7 @@
                         <img src="asset/002.jpeg">
                         <div class="card-content">
                             <h3>Informasi PPDB 2024</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <p>Berikut tautan untuk mendownload: Informasi PPDB, Persyaratan dan Alur Pendaftaran, Materi Sosialisasi.</p>
                             <a href="#">Read More</a>
                         </div>
                         <div class="card-footer">
