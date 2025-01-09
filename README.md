@@ -1,10 +1,10 @@
 # Tema Kelompok Disini
 
-<p align="center"><img src="image/ubsi.png" width="200" alt="Logo UBSI"></p>
+<p align="center"><img src="asset/BSI_Logo.png" width="200" alt="Logo UBSI"></p>
 
 ## Pengenalan Project
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quasi! Sint aspernatur culpa, cupiditate vitae expedita sit impedit esse rem fugiat, modi est, eveniet iusto molestias qui deleniti voluptatum quos!
+Website Sekolah menjadi garda terdepan dalam memberikan informasi sekolah kepada masyarakat. Website dapat berguna untuk promosi secara efektif dan efisien. Dan dengan adanya website, sekolah dapat memberikan informasi lebih transparan dan terbuka kepada masyarakat.
 
 ## Nama Kelompok
 
@@ -40,36 +40,29 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quasi! Sin
 <strong>Pengguna</strong>
 
 <ol>
-<li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-<li>Illo amet nesciunt ipsam velit? Perferendis quo, corrupti assumenda ipsa commodi laborum aliquam..</li>
+<li>Melihat Visi Misi Sekolah</li>
+<li>Melihat Siswa/I yang diterima di PTN</li>
+<li>Mengetahui berbagai ekstrakurikuler di Sekolah</li>
+<li>Melihat Berita atau Informasi Terbaru</li>
+<li>Mengetahui letak Lokasi Sekolah</li>
+<li>Memberi kritik atau saran kepada pihak Sekolah</li>
 </ol>
 
-<strong>Admin</strong>
-
-<ol>
-<li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-<li>Illo amet nesciunt ipsam velit? Perferendis quo, corrupti assumenda ipsa commodi laborum aliquam..</li>
-</ol>
 <!-- Sesuaikan dengan hak akses dari project masing-masing kelompok -->
 
 ## Screenshot
 
 <table width="100%">
 <tr>
-<td><h3 align="center">Menu 1</h3><img src="folder/image1.jpg"></td>
-<td><h3 align="center">Menu 2</h3><img src="folder/image2.jpg"></td>
+<td><h3 align="center">Menu 1</h3><img src="screenshoot/gmbr1.png"></td>
+<td><h3 align="center">Menu 2</h3><img src="screenshoot/gmbr2.png"></td>
 </tr>
 <tr>
-<td><h3 align="center">Menu 3</h3><img src="folder/image3.jpg"></td>
-<td><h3 align="center">Menu 4</h3><img src="folder/image4.jpg"></td>
+<td><h3 align="center">Menu 3</h3><img src="screenshoot/gmbr3.png"></td>
+<td><h3 align="center">Menu 4</h3><img src="screenshoot/gmbr4.png"></td>
 </tr>
 <tr>
-<td><h3 align="center">Menu 5</h3><img src="folder/image5.jpg"></td>
-<td><h3 align="center">Menu 6</h3><img src="folder/image6.jpg"></td>
-</tr>
-<tr>
-<td><h3 align="center">Menu 7</h3><img src="folder/image7.jpg"></td>
-<td><h3 align="center">Menu 8</h3><img src="folder/image8.jpg"></td>
+<td><h3 align="center">Menu 5</h3><img src="screenshoot/gmbr5.png"></td>
 </tr>
 </table>
 

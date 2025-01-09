@@ -61,33 +61,33 @@
                 <div class="container2">
                     <div class="siswa">
                         <div class="kartu">
-                            <img src="asset/img5.JPG" alt="Mohammad Safrudin">
+                            <img src="asset/img1.jpg" alt="Fadhil Jaidi">
                             <div class="kartu-text">
-                                <h3>Mohammad Safrudin</h3>
+                                <h3>Fadhil Jaidi</h3>
                                 <span>IPB</span><br>
                                 <span>Teknik Pangan</span>
                             </div>
                         </div>
                         <div class="kartu">
-                            <img src="asset/img2.JPG" alt="Dian Widyasari">
+                            <img src="asset/img2.png" alt="Bintang Emon">
                             <div class="kartu-text">
-                                <h3>Dian Widyasari</h3>
+                                <h3>Bintang Emon</h3>
                                 <span>UI</span><br>
                                 <span>Arsitektur</span>
                             </div>
                         </div>
                         <div class="kartu">
-                            <img src="asset/img6.JPG" alt="Dede Supriatna">
+                            <img src="asset/img3.jpg" alt="Fathia Izzati">
                             <div class="kartu-text">
-                                <h3>Dede Supriatna</h3>
+                                <h3>Fathia Izzati</h3>
                                 <span>ITB</span><br>
                                 <span>Teknik Sipil</span>
                             </div>
                         </div>
                         <div class="kartu">
-                            <img src="asset/img4.JPG" alt="Siti Warsih">
+                            <img src="asset/img4.png" alt="Maudy Ayunda">
                             <div class="kartu-text">
-                                <h3>Siti Warsih</h3>
+                                <h3>Maudy Ayunda</h3>
                                 <span>UNAIR</span><br>
                                 <span>Teknologi Pendidikan</span>
                             </div>
@@ -101,7 +101,7 @@
                 <div class="container5">
                     <div class="box">
                         <div class="kartu-box">
-                            <img src="asset/reading.png" class="icone"></i>
+                            <img src="asset/1.png" class="icone"></i>
                             <div class="texxx">
                                 <h3>OSIS</h3>
                                 <span>Organisasi Intra Sekolah</span>
@@ -110,7 +110,7 @@
                     </div>
                     <div class="box">
                         <div class="kartu-box">
-                            <img src="asset/reading.png" class="icone"></i>
+                            <img src="asset/2.png" class="icone"></i>
                             <div class="texxx">
                                 <h3>PMR</h3>
                                 <span>Palang Merah Remaja</span>
@@ -119,7 +119,7 @@
                     </div>
                     <div class="box">
                         <div class="kartu-box">
-                            <img src="asset/reading.png" class="icone"></i>
+                            <img src="asset/3.png" class="icone"></i>
                             <div class="texxx">
                                 <h3>Pramuka</h3>
                                 <span>Praja Muda Karana</span>
@@ -128,7 +128,7 @@
                     </div>
                     <div class="box">
                         <div class="kartu-box">
-                            <img src="asset/reading.png" class="icone"></i>
+                            <img src="asset/4.png" class="icone"></i>
                             <div class="texxx">
                                 <h3>Paskibra</h3>
                                 <span>Pasukan Pengibar Bendera</span>
@@ -137,10 +137,10 @@
                     </div>
                     <div class="box">
                         <div class="kartu-box">
-                            <img src="asset/reading.png" class="icone"></i>
+                            <img src="asset/5.png" class="icone"></i>
                             <div class="texxx">
-                                <h3>Ekstrakurikuler Lainnya</h3>
-                                <span>Olahraga, Seni Tari</span>
+                                <h3>Sanggar Seni</h3>
+                                <span>Seni Tari, Musik, Desain</span>
                             </div>
                         </div>
                     </div>
