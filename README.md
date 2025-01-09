@@ -63,8 +63,6 @@ Website Sekolah menjadi garda terdepan dalam memberikan informasi sekolah kepada
 </tr>
 <tr>
 <td><h3 align="center">Menu 5</h3><img src="screenshoot/gmbr4.png"></td>
-</tr>
-<tr>
 <td><h3 align="center">Menu 6</h3><img src="screenshoot/gmbr5.png"></td>
 </tr>
 </table>
